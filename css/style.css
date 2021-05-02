@@ -1,0 +1,29 @@
+/*slider1 css*/
+.banner{
+	background-image: url(../images/image4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slider{
+	background-color: rgba(1,1,1,.7);
+	color: white;
+	padding: 70px;
+}
+.slider h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.slider p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.slider button{
+	margin-bottom: 100px;
+}
+.custom_ind{
+	bottom: 40px;
+}
+
+/*slider1 css*/

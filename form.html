@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="Tuhin Shuvra">
+		<meta name="description" content="Personal site for media branding and freelancing">
+		<meta name="keywords" content="Tuhin shuvra, personal, Branding, media, freelancing, tumpa, shoumik">
+		<meta name="robots" content="index, follow">
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<title>Class-19 HW : Class Discussion</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- ---------------------------------top menu start------------------------------ -->
+			<header>
+				<h3 align="center" class="bg-secondary">Class-19 Home Work</h3>
+				<!-- <div class="container"> -->
+					<a href="index.html" class="btn btn-success">Home</a>
+					<a href="class_discussion.html" class="btn btn-primary">Class Discussion</a>
+					<a href="form.html" class="btn btn-success">Input Form</a>
+					<a href="custom_slider.html" class="btn btn-primary">Custom Slider</a>
+					<a href="components.html" class="btn btn-success">Components</a>
+					<a href="about_me.html" class="btn btn-primary">About Me</a>
+				<!-- </div> -->
+			</header><br>
+
+			<!-- ---------------------------------top menu end------------------------------ -->
+			
+			<!-- tooltips start-->
+			<h3 class="text-center bg-secondary">User Data Entry Form</h3>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="form_custom">
+							<form class="row g-3 needs-validation" novalidate>
+								<div class="col-md-4">
+									<label for="full_name" class="form-label fw-bold">First name</label>
+									<input type="text" class="form-control full_name" id="full_name" name="full_name" placeholder="Enter your first name, Ex. Salman" required>
+									<div class="valid-feedback">
+										Looks good!
+									</div>
+									<div class="invalid-feedback">
+										Please select your first name.
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<label for="last_name" class="form-label fw-bold">Last name</label>
+									<input type="text" class="form-control last_name" id="last_name" name="last_name" placeholder="Enter your last name, Ex. Khan" required>
+									<div class="valid-feedback">
+										Looks good!
+									</div>
+									<div class="invalid-feedback">
+										Please select your last name.
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<label for="u_phone" class="form-label fw-bold">Phone</label>
+									<div class="input-group has-validation">
+										<input type="tel" class="form-control u_phone" id="u_phone" name="u_phone" placeholder="Enter your phone, Ex. 01345678901" required>
+										
+										<div class="valid-feedback">
+											Looks good!
+										</div>
+										<div class="invalid-feedback">
+											Please enter your phone no.
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<label for="u_email" class="form-label fw-bold">Email</label>
+									<div class="input-group has-validation">
+										<span class="input-group-text" id="u_email">@</span>
+										<input type="email" class="form-control u_email" id="u_email" name="u_email" placeholder="Enter your email, Ex. abcde@gmail.com" required>
+										
+										<div class="valid-feedback">
+											Looks good!
+										</div>
+										<div class="invalid-feedback">
+											Please enter your email id.
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<label for="u_city" class="form-label fw-bold">City</label>
+									<input type="text" class="form-control u_city" id="u_city" placeholder="Enter your City, Ex. Jashore" required>
+									<div class="invalid-feedback">
+										Please provide a valid city.
+									</div>
+									<div class="valid-feedback">
+										Looks good!
+									</div>
+									<div class="invalid-feedback">
+										Please choose your city.
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<label for="u_state" class="form-label fw-bold">State</label>
+									<select class="form-select" id="u_state"  required>
+										<option selected disabled value="">Please Select</option>
+										<option value="1">Dhaka</option>
+										<option value="2">Chattogram</option>
+										<option value="3">Khulna</option>
+										<option value="4">Rajshahi</option>
+										<option value="5">Barishal</option>
+										<option value="6">Sylhet</option>
+										<option value="7">Rangpur</option>
+										<option value="8">Mymensingh</option>
+									</select>
+									<div class="valid-feedback">
+										Looks good!
+									</div>
+									<div class="invalid-feedback">
+										Please select your state.
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<label for="u_zip" class="form-label fw-bold">Zip</label>
+									<input type="text" class="form-control" id="u_zip" placeholder="Enter your zip code, Ex. 997654" required>
+									
+									<div class="valid-feedback">
+										Looks good!
+									</div>
+									<div class="invalid-feedback">
+										Please provide a valid zip.
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="u_terms" required>
+										<label class="form-check-label" for="u_terms">
+											Agree to terms and conditions
+										</label>
+										<div class="valid-feedback">
+											Looks good!
+										</div>
+										<div class="invalid-feedback">
+											You must agree before submitting.
+										</div>
+									</div>
+								</div>
+
+								<div class="col-12 text-end">
+									<button class="btn btn-primary fw-bold" type="submit">Submit</button>
+								</div>
+								
+							</form>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+		</div>
+		<!-- JS Link -->
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+		<script>
+					// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function () {
+		'use strict'
+		// Fetch all the forms we want to apply custom Bootstrap validation styles to
+		var forms = document.querySelectorAll('.needs-validation')
+		// Loop over them and prevent submission
+		Array.prototype.slice.call(forms)
+		.forEach(function (form) {
+		form.addEventListener('submit', function (event) {
+		if (!form.checkValidity()) {
+		event.preventDefault()
+		event.stopPropagation()
+		}
+		form.classList.add('was-validated')
+		}, false)
+		})
+		})()
+		</script>
+	</body>
+</html>
